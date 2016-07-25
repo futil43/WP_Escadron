@@ -152,22 +152,22 @@ switch($step) {
 	<table class="form-table">
 		<tr>
 			<th scope="row"><label for="dbname">Database Name</label></th>
-			<td><input name="dbname" id="dbname" type="text" size="25" value="escadronTB" /></td>
+			<td><input name="dbname" id="dbname" type="text" size="25" value="wordpress" /></td>
 			<td>The name of the database you want to run WP in. </td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="uname">User Name</label></th>
-			<td><input name="uname" id="uname" type="text" size="25" value="adminTetesBrulees" /></td>
+			<td><input name="uname" id="uname" type="text" size="25" value="username" /></td>
 			<td>Your Database username</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="pwd">Password</label></th>
-			<td><input name="pwd" id="pwd" type="text" size="25" value="Pierre13!" /></td>
+			<td><input name="pwd" id="pwd" type="text" size="25" value="password" /></td>
 			<td>...and Database password.</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="dbhost">Database Host</label></th>
-			<td><input name="dbhost" id="dbhost" type="text" size="35" value="escadrontbsrv.database.windows.net" /></td>
+			<td><input name="dbhost" id="dbhost" type="text" size="25" value="localhost" /></td>
 			<td>You should be able to get this info from your web host, if <code>localhost</code> does not work.</td>
 		</tr>
 		<tr>
